@@ -1,0 +1,11 @@
+{
+  "name": "@realitystateos/interface",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "RealityStateOS module 011 — Interface (REST API + CLI; GraphQL/WebSocket/Mobile/Desktop/XR are documented, not-yet-built surfaces). Proprietary — see root LICENSE.md.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": { "build": "tsc", "test": "tsc && node dist/test.js" },
+  "devDependencies": { "typescript": "^5.9.3", "@types/node": "^22.0.0" }
+}
